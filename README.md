@@ -5,21 +5,30 @@
 # DETAILED EXPLANATION OF THE SYSTEM DESIGN ARCHITECTURE
 # Chrome Extension:
 
-Background Script: Handles tasks that run in the background, manages the extension's lifecycle, and interacts with the Chrome browser.
-Content Script: Executes in the context of a web page when the extension is activated. Communicates with the page and sends data to the background script.
-Popup: User interface that appears when the extension icon is clicked. Allows users to interact with the extension.
+# Background Script:
+Handles tasks that run in the background, manages the extension's lifecycle, and interacts with the Chrome browser.
+# Content Script:
+Executes in the context of a web page when the extension is activated. Communicates with the page and sends data to the background script.
+# Popup:
+User interface that appears when the extension icon is clicked. Allows users to interact with the extension.
 
 # Web Application:
 
-Frontend: User interface visible to clients. Built using HTML, CSS, and JavaScript. Communicates with the backend through APIs to retrieve and display data.
-Backend: Server-side logic responsible for processing requests, handling business logic, and interacting with the database.
-Database: MongoDB is used for storing data. It provides a flexible, NoSQL storage solution suitable for the unstructured nature of message data.
+# Frontend:
+User interface visible to clients. Built using HTML, CSS, and JavaScript. Communicates with the backend through APIs to retrieve and display data.
+# Backend:
+Server-side logic responsible for processing requests, handling business logic, and interacting with the database.
+# Database:
+MongoDB is used for storing data. It provides a flexible, NoSQL storage solution suitable for the unstructured nature of message data.
 
 # Cloud Services:
 
-Machine Learning Models: Hosted on a cloud platform (AWS SageMaker). Trained on client conversational message history to generate messages automatically.
-API Gateway: AWS API Gateway facilitates communication between the web application and cloud services. Manages API requests and responses securely.
-Message Queue: AWS Simple Queue Service (SQS) could be used for handling asynchronous communication between components, ensuring scalable and reliable message processing.
+# Machine Learning Models:
+Hosted on a cloud platform (AWS SageMaker). Trained on client conversational message history to generate messages automatically.
+# API Gateway:
+AWS API Gateway facilitates communication between the web application and cloud services. Manages API requests and responses securely.
+# Message Queue:
+AWS Simple Queue Service (SQS) could be used for handling asynchronous communication between components, ensuring scalable and reliable message processing.
 
 # Data Flow:
 
