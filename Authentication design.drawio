@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T14:11:13.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="21.7.5" etag="0kWu1DvZj_rGOpQnjQ4F" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T18:49:43.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="twTpzljPp2IEaQSn4n02" version="21.7.5" type="github">
   <diagram name="Page-1" id="FMTom_-SalYR2EUTLqph">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FxP13_aEy_waTI5lGQrt-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="290" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-5" value="Authentication System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="79" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-6" value="Authorization System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-7" value="Multi-User Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-8" value="user registeration&lt;br&gt;&amp;amp;&lt;br&gt;login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-9" value="role-based&lt;br&gt;authentication" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-10" value="Organisation admins&lt;br&gt;&amp;amp;&lt;br&gt;users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="145" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-11" value="Access control&lt;br&gt;&amp;amp;&lt;br&gt;Data visibility" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="145" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-12" value="User invitations&amp;nbsp;&lt;br&gt;Suspensions&lt;br&gt;&amp;amp;&lt;br&gt;Deactivation&lt;br&gt;Password Policies&lt;br&gt;Two Factor Authentication&lt;br&gt;(2FA)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-14" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.978;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.011;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FxP13_aEy_waTI5lGQrt-8" target="FxP13_aEy_waTI5lGQrt-9">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="300" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxP13_aEy_waTI5lGQrt-15" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=-0.011;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FxP13_aEy_waTI5lGQrt-10" target="FxP13_aEy_waTI5lGQrt-11">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="300" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
