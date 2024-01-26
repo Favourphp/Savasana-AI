@@ -15,9 +15,9 @@ User interface that appears when the extension icon is clicked. Allows users to 
 # Web Application:
 
 # Frontend:
-User interface visible to clients. Built using HTML, CSS, and JavaScript. Communicates with the backend through APIs to retrieve and display data.
+User interface visible to clients. Built using HTML, CSS, JavaScript amd React. Communicates with the backend through APIs to retrieve and display data.
 # Backend:
-Server-side logic responsible for processing requests, handling business logic, and interacting with the database.
+Typescript and Express Server-side logic responsible for processing requests, handling business logic, and interacting with the database.
 # Database:
 MongoDB is used for storing data. It provides a flexible, NoSQL storage solution suitable for the unstructured nature of message data.
 
@@ -28,7 +28,7 @@ Hosted on a cloud platform (AWS SageMaker). Trained on client conversational mes
 # API Gateway:
 AWS API Gateway facilitates communication between the web application and cloud services. Manages API requests and responses securely.
 # Message Queue:
-AWS Simple Queue Service (SQS) could be used for handling asynchronous communication between components, ensuring scalable and reliable message processing.
+AWS Simple Queue Service (SQS) will be used for handling asynchronous communication between components, ensuring scalable and reliable message processing.
 
 # Data Flow:
 
